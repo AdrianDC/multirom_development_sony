@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Project: 'https://github.com/AdrianDC/multirom_development_sony' -->
+<!-- Manifest: 'https://github.com/multirom-dev/android/tree/android-7.1' -->
+<!-- Repo Init: 'repoinittwrp 7.1' -->
+<!-- Untracked: '' -->
+<manifest>
+
+  <remove-project name="android_bootable_recovery" />
+  <project name="multirom-dev/Team-Win-Recovery-Project" path="bootable/recovery" remote="github" revision="android-8.1-mrom" />
+
+  <project name="multirom-dev/libbootimg" path="system/extras/libbootimg" remote="github" revision="master" />
+  <project name="AdrianDC/multirom_core" path="system/extras/multirom" remote="github" revision="master" />
+
+  <project name="TeamWin/android_device_qcom_common" path="device/qcom/common" remote="github" revision="android-7.1" />
+
+  <project name="XperiaMultiROM/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="master" />
+  <project name="XperiaMultiROM/android_device_sony_hayabusa" path="device/sony/hayabusa" remote="github" revision="master" />
+  <project name="XperiaMultiROM/android_device_sony_mint" path="device/sony/mint" remote="github" revision="master" />
+  <project name="XperiaMultiROM/android_device_sony_tsubasa" path="device/sony/tsubasa" remote="github" revision="master" />
+  <project name="XperiaMultiROM/android_device_sony_dora" path="device/sony/dora" remote="github" revision="master" />
+  <project name="XperiaMultiROM/android_device_sony_kagura" path="device/sony/kagura" remote="github" revision="master" />
+
+  <!--
+  <project name="XperiaMultiROM/MultiROMMgr" path="MultiROMMgr" remote="github" revision="master" />
+  <project name="XperiaMultiROM/XperiaMultiROM.github.io" path="XperiaMultiROM.github.io" remote="github" revision="master" />
+  -->
+
+</manifest>
